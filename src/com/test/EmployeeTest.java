@@ -14,27 +14,44 @@ import java.util.Date;
  */
 public class EmployeeTest {
     public static void main(String[] args) {
-        //addEmplyee();
+        addEmplyee();
         //updateEmplyee();
-        deleteEmplyee();
+        //deleteEmplyee();
 
     }
 
     private static void deleteEmplyee() {
         Session session = SessionFactoryUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        Employee employee = session.load(Employee.class,2);
+        Employee employee = session.load(Employee.class, 2);
         session.delete(employee);
         transaction.commit();
     }
 
     private static void updateEmplyee() {
         Session session = SessionFactoryUtil.getSessionFactory().openSession();
-        Transaction transaction = session.beginTransaction();
+        /*Transaction transaction = session.beginTransaction();
         Employee employee = session.load(Employee.class,1);
         employee.setName("lishuzhen");
         employee.setEmail("lishuzhen@163.com");
-        transaction.commit();
+        transaction.commit();*/
+        //改进后的模版代码
+        Transaction transaction = null;
+        try {
+            transaction = session.beginTransaction();
+            Employee employee = session.load(Employee.class, 1);
+            employee.setName("lishuzhen");
+            employee.setEmail("lishuzhen@163.com");
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }//最好是抛出runntime异常，提供给上层，由上层来决定是否对异常进行处理
+            throw new RuntimeException(e.getMessage());
+        } finally {
+            if (session != null && session.isOpen())
+                session.close();
+        }
     }
 
     private static void addEmplyee() {
