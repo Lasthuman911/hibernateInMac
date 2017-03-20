@@ -6,8 +6,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.tutorial.domain.HibernateUtil;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by lszhen on 2017/3/12.
@@ -17,18 +19,28 @@ public class EmployeeTest {
 
 
 
+
+         //query 查询所有用户的id，query的简单用法
+        simpleQuery();
+
+
         //loadAndGetTest();
-
-
         //getCurrentSessionTest();
-
         //openSessionTest();
-
         //addEmployee2();
-        //addEmplyee();
+        // addEmplyee();
         //updateEmplyee();
         //deleteEmplyee();
 
+    }
+
+    private static void simpleQuery() {
+        Session session = SessionFactoryUtil.getSessionFactory().openSession();
+        List<Employee> result = session.createQuery("from Employee where id = :id").setParameter("id",1).list();
+       // List<Employee> result = session.createQuery("from Employee").list();
+        for (Employee employee : result){
+            System.out.println(employee.getId());
+        }
     }
 
     /**
