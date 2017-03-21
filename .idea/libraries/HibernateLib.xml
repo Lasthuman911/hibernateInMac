@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="HibernateLib">
+    <CLASSES>
+      <root url="file://D:/jar/HibernateLib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-5.2.3.Final-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://D:/jar/HibernateLib" recursive="false" />
+  </library>
+</component>

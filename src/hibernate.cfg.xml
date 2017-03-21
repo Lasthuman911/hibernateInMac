@@ -5,12 +5,31 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.driver_class" >com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql:///wzm</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">123456</property>
-        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.driver_class" >oracle.jdbc.driver.OracleDriver</property>
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:wzmtest</property>
+        <property name="connection.username">system</property>
+        <property name="connection.password">Wzm910712</property>
+
+        <!--设定数据库方言-->
+        <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
         <property name="show_sql">true</property>
-        <mapping resource="com/domain/employee.hbm.cfg"/>
+
+        <!--需要配置此项，才可以在程序中启用getCurrentSession-->
+        <property name="current_session_context_class">thread</property>
+
+        <!--如果没有对应的表就创建-->
+        <!--<property name="hibernate.hbm2ddl.auto">update</property>-->
+
+        <!--将显示格式化的sql -->
+        <property name="hibernate.format_sql">true</property>
+
+        <!--所有的mapping 文件-->
+        <mapping resource="com/domain/employee.hbm.xml"/>
+        <mapping class="com.domain.Contact"/>
+        <mapping class="com.domain.mappingEnums.Phone"/>
+        <mapping class="com.domain.clobMapping.Product"/>
+        <mapping class="com.domain.dateTime.DateEvent"/>
+        <mapping class="com.domain.dateTime.TimeEvent"/>
     </session-factory>
 </hibernate-configuration>
