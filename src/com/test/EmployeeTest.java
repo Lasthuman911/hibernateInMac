@@ -21,7 +21,7 @@ public class EmployeeTest {
 
 
          //query 查询所有用户的id，query的简单用法
-        simpleQuery();
+       // simpleQuery();
 
 
         //loadAndGetTest();

@@ -17,7 +17,7 @@ public class ContactTest {
        try{
            Transaction transaction = session.beginTransaction();
            Phone phone = new Phone();
-           phone.setId(3L);
+           phone.setId(1L);
            phone.setNumber("2328765");
            phone.setType(PhoneType.MOBILE);
           // entityManager.persist(phone);

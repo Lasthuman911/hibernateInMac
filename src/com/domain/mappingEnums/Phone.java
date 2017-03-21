@@ -39,8 +39,8 @@ public class Phone {
         this.type = type;
     }
 
-   //@Enumerated(EnumType.ORDINAL)//按序号
-    @Enumerated(EnumType.STRING)//按enum值
+    @Enumerated(EnumType.ORDINAL)//按序号
+    //@Enumerated(EnumType.STRING)//按enum值
     @Column(name = "phone_type")
     private PhoneType type;
 }
