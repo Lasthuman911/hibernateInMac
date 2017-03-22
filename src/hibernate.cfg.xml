@@ -12,5 +12,6 @@
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="show_sql">true</property>
         <mapping resource="com/domain/employee.hbm.cfg"/>
+        <mapping class="com.domain.mappingEnums.Phone"/>
     </session-factory>
 </hibernate-configuration>

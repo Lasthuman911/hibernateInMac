@@ -1,0 +1,8 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="Phone">
+        <properties>
+            <property name="hibernate.ejb.cfgfile" value="/hibernate.cfg.xml"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
