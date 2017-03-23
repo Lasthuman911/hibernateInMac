@@ -54,10 +54,10 @@ public class ProductTest {
             product.setId(1);
             product.setName("Mobile phone");
             //doWork(Work work):Controller for allowing users to perform JDBC related work using the Connection managed by this Session.
-            session.doWork(connection -> {
+          /*  session.doWork(connection -> {
                 product.setWarranty(ClobProxy.generateProxy(warranty
                 ));
-            });//使用纯jdbc生成clob数据
+            });*///使用纯jdbc生成clob数据
             session.save(product);
 
             transaction.commit();

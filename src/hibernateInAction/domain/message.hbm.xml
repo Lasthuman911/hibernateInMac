@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hibernateInAction.domain">
+    <class name="Message" table="message">
+        <id name="id" type="java.lang.Long">
+            <column name="id"></column>
+            <generator class="sequence">
+                <param name="sequence">message_seq</param>
+            </generator>
+        </id>
+        <property name="text" type="java.lang.String">
+            <column name="text"/>
+        </property>
+        <many-to-one name="nextMessage" column="next_message_id"/>
+    </class>
+
+</hibernate-mapping>
