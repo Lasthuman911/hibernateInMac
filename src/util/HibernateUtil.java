@@ -1,33 +1,42 @@
-package com.service;
+package util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.mapping.MetadataSource;
 
-
-/**使用简单工厂模式，生成唯一的SessionFactory
- * Created by lszhen on 2017/3/12.
+/**
+ * Name: admin
+ * Date: 2017/3/22
+ * Time: 13:46
  */
- public final class SessionFactoryUtil {
-//case1:
-/*     private static SessionFactory sessionFactory = null;
-     private SessionFactoryUtil(){}
+public class HibernateUtil {
 
-     static {
-         sessionFactory = new Configuration().configure().buildSessionFactory();
-     }
-
-     public static SessionFactory getSessionFactory(){
-         return sessionFactory;
-     }*/
-//case2:hibernate 官方文档推荐写法
     private static SessionFactory sessionFactory = null;
 
-    private SessionFactoryUtil(){}
+    private HibernateUtil(){}
 
+    //获取SessionFactory-case 1
+/*    public static SessionFactory getSessionFaction() {
+        if (sessionFactory == null) {
+        //new Configuration()-程序会去找hibernate.properties, .configure()-程序默认加载hibernate.cfg.xml
+        //若两个文件同时存在，以xml文件为准
+            SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+        }
+        return sessionFactory;
+    }*/
+
+    //获取SessionFactory-case 2
+    /*static {
+        SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+    }
+
+    public static SessionFactory getSessionFaction() {
+        return sessionFactory;
+    }*/
+
+    //获取SessionFactory-case 3-Hibernate官方
     static{
         final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .configure()// configures settings from hibernate.cfg.xml
