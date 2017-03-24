@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/jar/spring-framework-4.3.7.RELEASE/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/jar/spring-framework-4.3.7.RELEASE/libs" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Documents/jar/spring-framework-4.3.7.RELEASE/libs" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/jar/spring-framework-4.3.7.RELEASE/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>
