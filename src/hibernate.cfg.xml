@@ -5,51 +5,13 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.driver_class" >oracle.jdbc.driver.OracleDriver</property>
-        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:wzmtest</property>
-        <property name="connection.username">system</property>
-        <property name="connection.password">Wzm910712</property>
-
-        <!--设定数据库方言-->
-        <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
-
+        <property name="connection.driver_class" >com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql:///wzm</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">123456</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="show_sql">true</property>
-        <!--使用系统参数的形式，更加动态-->
-        <!--<property name="show_sql">${displaysql}</property>-->
-
-        <!--需要配置此项，才可以在程序中启用getCurrentSession-->
-        <property name="current_session_context_class">thread</property>
-
-        <!--如果没有对应的表就创建-->
-        <property name="hibernate.hbm2ddl.auto">update</property>
-
-        <!--将显示格式化的sql -->
-        <property name="hibernate.format_sql">true</property>
-
-        <!--将注释放在所有生成的sql语句内部-->
-        <property name="use_sql_comments">true</property>
-
-        <!--使用c3p0 连接池-->
-        <!--This is the minimum number of JDBC connections that C3P0 keeps ready at all times-->
-        <property name="hibernate.c3p0.min_size">5</property>
-        <!--This is the maximum number of connections in the pool. An exception is thrown at runtime if this number is exhausted.-->
-        <property name="hibernate.c3p0.max_size">20</property>
-        <!--You specify the timeout period (in this case, 300 seconds) after which an idle connection is removed from the pool-->
-        <property name="hibernate.c3p0.timeout">300</property>
-        <!--A maximum of 50 prepared statements will be cached. Caching of prepared statements is essential for best performance with Hibernate-->
-        <property name="hibernate.c3p0.max_statements">50</property>
-        <!--This is the idle time in seconds before a connection is automatically validated-->
-        <property name="hibernate.c3p0.idle_test_period">3000</property>
-
-        <!--所有的mapping 文件-->
-        <mapping resource="com/domain/employee.hbm.xml"/>
-        <!--<mapping resource="hibernateInAction/domain/message.hbm.xml"/>-->
-        <mapping class="com.domain.Contact"/>
+        <mapping resource="com/domain/employee.hbm.cfg"/>
         <mapping class="com.domain.mappingEnums.Phone"/>
-        <mapping class="com.domain.clobMapping.Product"/>
-        <mapping class="com.domain.dateTime.DateEvent"/>
-        <mapping class="com.domain.dateTime.TimeEvent"/>
-        <mapping class="hibernateInAction.domain.Message"/>
-
     </session-factory>
 </hibernate-configuration>
