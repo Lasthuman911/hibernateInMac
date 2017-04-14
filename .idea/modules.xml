@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mes/mes.iml" filepath="$PROJECT_DIR$/mes/mes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVCInaction/springMVCInaction.iml" filepath="$PROJECT_DIR$/springMVCInaction/springMVCInaction.iml" />
     </modules>
   </component>
 </project>
