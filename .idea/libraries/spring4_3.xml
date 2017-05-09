@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="spring4.3">
+    <CLASSES>
+      <root url="file://D:/jar/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/jar/libs/spring-aop-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-aspects-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-beans-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-context-support-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-core-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-expression-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-instrument-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-instrument-tomcat-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-jdbc-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-jms-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-messaging-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-orm-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-oxm-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-tx-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-web-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-webmvc-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-webmvc-portlet-4.3.6.RELEASE-sources" />
+      <root url="file://D:/jar/libs/spring-websocket-4.3.6.RELEASE-sources" />
+    </SOURCES>
+    <jarDirectory url="file://D:/jar/libs" recursive="false" />
+  </library>
+</component>
