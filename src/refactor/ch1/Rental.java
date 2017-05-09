@@ -27,15 +27,11 @@ public class Rental {
         this.daysRented = daysRented;
     }
 
-    public double getCharge(){
+    public double getCharge() {
         return movie.getCharge(daysRented);
     }
 
     public int getFrequentRenterPoints() {
-        if ((movie.getMovie().getPriceCode() == Movie.NEW_RELEASE) && (
-                daysRented() > 1)) {
-            return 2;
-        }else
-        return 1;
+        return movie.getFrequentRenterPoints(daysRented);
     }
 }
