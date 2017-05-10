@@ -5,6 +5,8 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/META-INF/spring/knight.xml</file>
+          <file>file://$MODULE_DIR$/src/META-INF/spring/minstrel.xml</file>
+          <file>file://$MODULE_DIR$/src/META-INF/spring/soundsystem.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -23,5 +25,8 @@
     <orderEntry type="library" name="easymock-3" level="project" />
     <orderEntry type="library" name="mockito-all-1.9.5" level="project" />
     <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="aspectj-1.8.10" level="project" />
+    <orderEntry type="library" name="aspectjweaver" level="project" />
+    <orderEntry type="library" name="system-rules-1.16.1" level="project" />
   </component>
 </module>

@@ -12,4 +12,5 @@
     <constructor-arg value="#{T(System).out}" />
   </bean>
 
+
 </beans>

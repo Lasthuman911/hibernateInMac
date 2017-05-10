@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76271545-8dc2-4ec2-a538-e8fd56ab6910" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/easymock_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/BraveKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/DamselRescuingKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/Knight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/Quest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/RescueDamselQuest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/SlayDragonQuest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/config/KnightConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/test/sia/knights/BraveKnightTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_121.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mockito_all_1_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_all_1_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/aspectj_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/aspectjweaver.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/system_rules_1_16_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/META-INF/spring/soundsystem.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/Minstrel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/soundsystem/CDPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/soundsystem/CDPlayerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/soundsystem/CompactDisc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/soundsystem/MediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/soundsystem/SgtPeppers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/src/test/soundsystem/CDPlayerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/refactor/ch5/Param.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaSE.iml" afterPath="$PROJECT_DIR$/JavaSE.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/Spring.iml" afterPath="$PROJECT_DIR$/Spring/Spring.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring/META-INF/application.xml" afterPath="$PROJECT_DIR$/Spring/src/META-INF/application.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml" afterPath="$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml" afterPath="$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java" afterPath="$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,114 +50,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BraveKnight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/BraveKnight.java">
+      <file leaf-file-name="CDPlayerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring/src/test/soundsystem/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DamselRescuingKnight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/DamselRescuingKnight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnightMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/AbstractApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="1090" column="17" selection-start-line="1090" selection-start-column="17" selection-end-line="1090" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Knight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Quest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knight.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlayDragonQuest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/SlayDragonQuest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="388">
+              <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minstrel.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml">
+      <file leaf-file-name="StandardOutputStreamLog.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+              <folding>
+                <element signature="e#2052#2053#0" expanded="true" />
+                <element signature="e#2088#2089#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogMode.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/LogMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/application.xml">
+      <file leaf-file-name="SystemOutRule.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/SystemOutRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="209" column="33" selection-start-line="209" selection-start-column="33" selection-end-line="209" selection-end-column="33" />
+              <folding>
+                <element signature="e#5808#5809#0" expanded="true" />
+                <element signature="e#5845#5846#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogPrintStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/internal/LogPrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+              <folding>
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1997#1998#0" expanded="true" />
+                <element signature="e#2048#2049#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,8 +121,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -189,13 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mes/src/kr/co/aim/messolution/extended/object/ExtendedObjectProxy.java" />
-        <option value="$PROJECT_DIR$/mes/src/kr/co/aim/messolution/extended/object/management/CTORMUtil.java" />
-        <option value="C:/Program Files/Java/jdk1.8.0_121/src/java/lang/reflect/Constructor.java" />
-        <option value="D:/jar/jdk1.8 source/src/java/lang/reflect/Constructor.java" />
-        <option value="D:/jar/jdk1.8 source/src/java/lang/Class.java" />
-        <option value="$PROJECT_DIR$/mes/src/kr/co/aim/nanoframe/util/support/InvokeUtils.java" />
-        <option value="$PROJECT_DIR$/mes/src/kr/co/aim/messolution/extended/object/management/impl/VirtualGlassService.java" />
         <option value="$PROJECT_DIR$/mes/src/kr/co/aim/messolution/lot/event/GlassLineIn.java" />
         <option value="$PROJECT_DIR$/mes/src/kr/co/aim/nanotrack/product/management/data/Product.java" />
         <option value="$PROJECT_DIR$/mes/src/kr/co/aim/nanoframe/orm/info/DataInfo.java" />
@@ -239,7 +180,14 @@
         <option value="$PROJECT_DIR$/Spring/src/SlayDragonQuest.java" />
         <option value="$PROJECT_DIR$/Spring/src/sia/knights/SlayDragonQuest.java" />
         <option value="$PROJECT_DIR$/Spring/META-INF/spring/minstrel.xml" />
+        <option value="$PROJECT_DIR$/src/refactor/ch5/Param.java" />
+        <option value="$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml" />
         <option value="$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java" />
+        <option value="$PROJECT_DIR$/Spring/src/META-INF/spring/soundsystem.xml" />
+        <option value="$PROJECT_DIR$/Spring/src/soundsystem/CDPlayerConfig.java" />
+        <option value="$PROJECT_DIR$/Spring/src/soundsystem/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/Spring/src/soundsystem/SgtPeppers.java" />
+        <option value="$PROJECT_DIR$/Spring/src/test/soundsystem/CDPlayerTest.java" />
       </list>
     </option>
   </component>
@@ -260,10 +208,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="18" />
+    <option name="y" value="34" />
     <option name="width" value="1861" />
-    <option name="height" value="1096" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -290,8 +238,455 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system-rules-1.16.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="context" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="context" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junit4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="context" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junit4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-test-4.3.6.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInAction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInAction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInAction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caveat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernateInMac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -357,276 +752,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-context-4.3.6.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-context-4.3.6.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="context" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-context-4.3.6.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="context" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-context-4.3.6.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="knights" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="knights" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernateInMac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/jar/mockito-all-1.9.5.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="D:/jar/system-rules-1.16.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40785497" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
@@ -645,135 +781,31 @@
       <recent name="sia.knights" />
       <recent name="Junit" />
     </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="se.build" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MIT\java\hibernateInMac\Spring\src\sia\knights" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MIT\java\hibernateInMac\Spring\src" />
-      <recent name="D:\MIT\java\hibernateInMac\Spring\META-INF\spring" />
-      <recent name="D:\MIT\java\hibernateInMac\Spring\src\sia\knights" />
-      <recent name="D:\MIT\java\hibernateInMac\Spring\src\sia\knights\config" />
-      <recent name="D:\MIT\java\hibernateInMac\Spring" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sia.knights" />
     </key>
-    <key name="CreateBuilderDialog.RecentsKey">
-      <recent name="se.build" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src\soundsystem" />
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src\test\soundsystem" />
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src\META-INF\spring" />
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src\sia\knights" />
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="se.ch3" />
       <recent name="com.domain.dateTime" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MIT\java\hibernateInMac\Spring\src\sia\knights" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.KnightMain">
-    <configuration default="false" name="LargestTest.testGetLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaSE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Junit" />
-      <option name="MAIN_CLASS_NAME" value="Junit.LargestTest" />
-      <option name="METHOD_NAME" value="testGetLargest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LargestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaSE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Junit" />
-      <option name="MAIN_CLASS_NAME" value="Junit.LargestTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LargestTest.testEmptyOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaSE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Junit" />
-      <option name="MAIN_CLASS_NAME" value="Junit.LargestTest" />
-      <option name="METHOD_NAME" value="testEmptyOfList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BraveKnightTest.knightShouldEmbarkOnQuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sia.knights.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Spring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sia.knights" />
-      <option name="MAIN_CLASS_NAME" value="sia.knights.BraveKnightTest" />
-      <option name="METHOD_NAME" value="knightShouldEmbarkOnQuest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CDPlayerTest.play2">
     <configuration default="false" name="KnightMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -792,6 +824,110 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Spring" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CDPlayerTest.cdShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" value="cdShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CDPlayerTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CDPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CDPlayerTest.play2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" value="play2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1255,19 +1391,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.69" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LargestTest.testGetLargest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LargestTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LargestTest.testEmptyOfList" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BraveKnightTest.knightShouldEmbarkOnQuest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.KnightMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.KnightMain" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.cdShouldNotBeNull" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.play" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.play2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KnightMain" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BraveKnightTest.knightShouldEmbarkOnQuest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LargestTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LargestTest.testGetLargest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LargestTest.testEmptyOfList" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.play2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.play" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CDPlayerTest.cdShouldNotBeNull" />
+        <item index="4" class="java.lang.String" itemvalue="Application.KnightMain" />
       </list>
     </recent_temporary>
   </component>
@@ -1309,7 +1445,9 @@
       <workItem from="1492147801759" duration="3911000" />
       <workItem from="1494222327052" duration="22000" />
       <workItem from="1494222813920" duration="11744000" />
-      <workItem from="1494288861600" duration="18175000" />
+      <workItem from="1494288861600" duration="18700000" />
+      <workItem from="1494375458776" duration="6209000" />
+      <workItem from="1494395996970" duration="10544000" />
     </task>
     <task id="LOCAL-00001" summary="load - get   openSession() --- getCurrentSession">
       <created>1489475003427</created>
@@ -1416,46 +1554,53 @@
       <option name="project" value="LOCAL" />
       <updated>1494312531199</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="spring in action 4 - ch1">
+      <created>1494322834550</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1494322834550</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BraveKnightTest_knightShouldEmbarkOnQuest - 2017.05.09 at 16h 33m 22s.xml">
-      <configuration name="BraveKnightTest.knightShouldEmbarkOnQuest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 16h 59m 16s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BraveKnightTest_knightShouldEmbarkOnQuest - 2017.05.09 at 16h 36m 10s.xml">
-      <configuration name="BraveKnightTest.knightShouldEmbarkOnQuest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 17h 00m 14s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 12m 30s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 17h 07m 44s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 12m 57s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 17h 08m 21s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 13m 25s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 17h 13m 25s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 38m 59s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play - 2017.05.10 at 17h 18m 06s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 39m 17s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play2 - 2017.05.10 at 17h 19m 34s.xml">
+      <configuration name="CDPlayerTest.play2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 39m 53s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play2 - 2017.05.10 at 17h 22m 01s.xml">
+      <configuration name="CDPlayerTest.play2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest - 2017.05.09 at 14h 40m 11s.xml">
-      <configuration name="LargestTest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play2 - 2017.05.10 at 17h 25m 41s.xml">
+      <configuration name="CDPlayerTest.play2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestTest_testGetLargest - 2017.05.09 at 14h 39m 48s.xml">
-      <configuration name="LargestTest.testGetLargest" configurationId="JUnit" />
+    <history-entry file="CDPlayerTest_play2 - 2017.05.10 at 17h 26m 21s.xml">
+      <configuration name="CDPlayerTest.play2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184800000" />
+    <option name="totallyTimeSpent" value="202078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1861" height="1096" extended-state="6" />
+    <frame x="18" y="34" width="1861" height="1014" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1469,15 +1614,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3969555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35059762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32371795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25162128" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1489,6 +1633,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39504844" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1515,11 +1660,20 @@
     <MESSAGE value="add mes modole" />
     <MESSAGE value="ref" />
     <MESSAGE value="junit 添加了suit 的使用-LargestTest&#10;添加了重构 case1 剩余部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="junit 添加了suit 的使用-LargestTest&#10;添加了重构 case1 剩余部分" />
+    <MESSAGE value="spring in action 4 - ch1" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring in action 4 - ch1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/refactor/ch5/Param.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1528,112 +1682,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/jar/jdk1.8 source/src/java/util/Enumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#2162#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/jdk1.8 source/src/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#53988#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5447#5448#0" expanded="false" />
-            <element signature="e#5487#5488#0" expanded="false" />
-            <element signature="e#5671#5672#0" expanded="false" />
-            <element signature="e#5695#5696#0" expanded="false" />
-            <element signature="e#7119#7120#0" expanded="false" />
-            <element signature="e#7193#7194#0" expanded="false" />
-            <element signature="e#11481#11482#0" expanded="false" />
-            <element signature="e#11522#11523#0" expanded="false" />
-            <element signature="e#11695#11696#0" expanded="false" />
-            <element signature="e#11730#11731#0" expanded="false" />
-            <element signature="e#12004#12005#0" expanded="false" />
-            <element signature="e#12044#12045#0" expanded="false" />
-            <element signature="e#12576#12577#0" expanded="false" />
-            <element signature="e#12635#12636#0" expanded="false" />
-            <element signature="e#13443#13444#0" expanded="false" />
-            <element signature="e#13484#13485#0" expanded="false" />
-            <element signature="e#14072#14073#0" expanded="false" />
-            <element signature="e#14108#14109#0" expanded="false" />
-            <element signature="e#15956#15957#0" expanded="false" />
-            <element signature="e#16009#16010#0" expanded="false" />
-            <element signature="e#26120#26121#0" expanded="false" />
-            <element signature="e#26183#26184#0" expanded="false" />
-            <element signature="e#27935#27936#0" expanded="false" />
-            <element signature="e#27980#27981#0" expanded="false" />
-            <element signature="e#30158#30159#0" expanded="false" />
-            <element signature="e#30197#30198#0" expanded="false" />
-            <element signature="e#30749#30750#0" expanded="false" />
-            <element signature="e#30796#30797#0" expanded="false" />
-            <element signature="e#31982#31983#0" expanded="false" />
-            <element signature="e#32017#32018#0" expanded="false" />
-            <element signature="e#32515#32516#0" expanded="false" />
-            <element signature="e#32558#32559#0" expanded="false" />
-            <element signature="e#34479#34480#0" expanded="false" />
-            <element signature="e#34520#34521#0" expanded="false" />
-            <element signature="e#35576#35577#0" expanded="false" />
-            <element signature="e#35617#35618#0" expanded="false" />
-            <element signature="e#37847#37848#0" expanded="false" />
-            <element signature="e#37885#37886#0" expanded="false" />
-            <element signature="e#37995#37996#0" expanded="false" />
-            <element signature="e#38034#38035#0" expanded="false" />
-            <element signature="e#38211#38212#0" expanded="false" />
-            <element signature="e#38250#38251#0" expanded="false" />
-            <element signature="e#42942#42943#0" expanded="false" />
-            <element signature="e#42979#42980#0" expanded="false" />
-            <element signature="e#43292#43293#0" expanded="false" />
-            <element signature="e#43324#43325#0" expanded="false" />
-            <element signature="e#45891#45892#0" expanded="false" />
-            <element signature="e#45933#45934#0" expanded="false" />
-            <element signature="e#45967#45968#0" expanded="false" />
-            <element signature="e#46004#46005#0" expanded="false" />
-            <element signature="e#46042#46043#0" expanded="false" />
-            <element signature="e#46083#46084#0" expanded="false" />
-            <element signature="e#50688#50689#0" expanded="false" />
-            <element signature="e#50756#50757#0" expanded="false" />
-            <element signature="e#53787#53788#0" expanded="false" />
-            <element signature="e#53845#53846#0" expanded="false" />
-            <element signature="e#53885#53886#0" expanded="false" />
-            <element signature="e#53978#53979#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springMVCInaction/springMVCInaction.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/refactor/ch1/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#690#691#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/refactor/ch1/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="533">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1641,157 +1693,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
-            <element signature="e#2332#2333#0" expanded="false" />
-            <element signature="e#2382#2383#0" expanded="false" />
-            <element signature="e#2440#2441#0" expanded="false" />
-            <element signature="e#2504#2505#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/tdd/TddTest.java">
+    <entry file="file://D:/jar/jdk1.8 source/src/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/refactor/ch5/Param.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jar/junit-4.12.jar!/junit/extensions/TestSetup.class">
+    <entry file="file://$PROJECT_DIR$/Spring/src/test/sia/knights/BraveKnightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="378">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16609">
+          <caret line="1090" column="17" selection-start-line="1090" selection-start-column="17" selection-end-line="1090" selection-end-column="17" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#0#50709#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#9656#9657#0" expanded="false" />
+            <element signature="e#9722#9723#0" expanded="false" />
+            <element signature="e#10427#10428#0" expanded="false" />
+            <element signature="e#10446#10447#0" expanded="false" />
+            <element signature="e#10483#10484#0" expanded="false" />
+            <element signature="e#10504#10505#0" expanded="false" />
+            <element signature="e#10554#10555#0" expanded="false" />
+            <element signature="e#10570#10571#0" expanded="false" />
+            <element signature="e#11078#11079#0" expanded="false" />
+            <element signature="e#11108#11109#0" expanded="false" />
+            <element signature="e#11306#11307#0" expanded="false" />
+            <element signature="e#11331#11332#0" expanded="false" />
+            <element signature="e#12133#12134#0" expanded="false" />
+            <element signature="e#12170#12171#0" expanded="false" />
+            <element signature="e#12572#12573#0" expanded="false" />
+            <element signature="e#12602#12603#0" expanded="false" />
+            <element signature="e#13012#13013#0" expanded="false" />
+            <element signature="e#13044#13045#0" expanded="false" />
+            <element signature="e#13493#13494#0" expanded="false" />
+            <element signature="e#13525#13526#0" expanded="false" />
+            <element signature="e#18331#18332#0" expanded="false" />
+            <element signature="e#18375#18376#0" expanded="false" />
+            <element signature="e#18858#18859#0" expanded="false" />
+            <element signature="e#18897#18898#0" expanded="false" />
+            <element signature="e#19145#19146#0" expanded="false" />
+            <element signature="e#19184#19185#0" expanded="false" />
+            <element signature="e#33221#33222#0" expanded="false" />
+            <element signature="e#33285#33286#0" expanded="false" />
+            <element signature="e#34736#34737#0" expanded="false" />
+            <element signature="e#34765#34766#0" expanded="false" />
+            <element signature="e#36345#36346#0" expanded="false" />
+            <element signature="e#36359#36360#0" expanded="false" />
+            <element signature="e#39013#39014#0" expanded="false" />
+            <element signature="e#39056#39057#0" expanded="false" />
+            <element signature="e#39570#39571#0" expanded="false" />
+            <element signature="e#39601#39602#0" expanded="false" />
+            <element signature="e#41510#41511#0" expanded="false" />
+            <element signature="e#41559#41560#0" expanded="false" />
+            <element signature="e#42528#42529#0" expanded="false" />
+            <element signature="e#42575#42576#0" expanded="false" />
+            <element signature="e#42845#42846#0" expanded="false" />
+            <element signature="e#42908#42909#0" expanded="false" />
+            <element signature="e#42959#42960#0" expanded="false" />
+            <element signature="e#43014#43015#0" expanded="false" />
+            <element signature="e#43070#43071#0" expanded="false" />
+            <element signature="e#43125#43126#0" expanded="false" />
+            <element signature="e#45070#45071#0" expanded="false" />
+            <element signature="e#45095#45096#0" expanded="false" />
+            <element signature="e#45156#45157#0" expanded="false" />
+            <element signature="e#45210#45211#0" expanded="false" />
+            <element signature="e#48100#48101#0" expanded="false" />
+            <element signature="e#48186#48187#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/PrjectTest.java">
+    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/config/KnightConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
           <folding>
-            <element signature="e#403#404#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
             <element signature="e#467#468#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/TestClassComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/TestClassOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/TestLargestDataFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/URLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/junitTest/Junit/LargestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2574#2575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/refactor/ch1/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding>
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1097#1098#0" expanded="false" />
-            <element signature="e#1372#1373#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-            <element signature="e#1510#1511#0" expanded="false" />
-            <element signature="e#1582#1583#0" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-            <element signature="e#1707#1708#0" expanded="false" />
-            <element signature="e#1743#1744#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/ch1/SgtPeppers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/annotation/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="390" column="7" selection-start-line="390" selection-start-column="7" selection-end-line="390" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/ch1/CompactDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/annotation/ComponentScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/DamselRescuingKnight.java">
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/BraveKnight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1799,350 +1835,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/Spring.iml">
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/DamselRescuingKnight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Minstrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Quest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/RescueDamselQuest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#97#0" expanded="false" />
+            <element signature="e#170#171#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/ch1/CDPlayerConfig.java">
+    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jar/easymock-3.4/easymock-3.4-sources.jar!/org/easymock/EasyMock.java">
+    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="311" column="5" selection-start-line="311" selection-start-column="5" selection-end-line="311" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;field#ENABLE_THREAD_SAFETY_CHECK_BY_DEFAULT#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;field#NOT_THREAD_SAFE_BY_DEFAULT#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;field#DISABLE_CLASS_MOCKING#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#mock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#mock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#mock#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#mock#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#mock#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#strictMock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#strictMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#strictMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#niceMock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#niceMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#partialMockBuilder#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createMock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createStrictMock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createStrictMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createMock#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createMock#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createNiceMock#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createNiceMock#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createMockBuilder#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createControl#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createStrictControl#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createControl#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#createNiceControl#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#expect#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#expectLastCall#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#getControlForLastCall#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyBoolean#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyBoolean#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyByte#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyByte#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyChar#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyChar#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyInt#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyInt#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyLong#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyLong#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyFloat#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyFloat#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyDouble#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyDouble#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyShort#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyShort#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyObject#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyObject#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyObject#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#anyObject#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#anyString#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#geq#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#geq#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#leq#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#leq#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#gt#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#gt#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#lt#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#lt#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#isA#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#isA#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#contains#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#7;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#7;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#and#8;class#EasyMock#0" expanded="false" />
-            <element signature="method#and#8;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#7;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#7;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#or#8;class#EasyMock#0" expanded="false" />
-            <element signature="method#or#8;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#7;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#7;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#not#8;class#EasyMock#0" expanded="false" />
-            <element signature="method#not#8;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#7;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#7;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#8;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#8;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#2;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#2;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#3;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#3;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#4;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#4;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#5;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#5;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#6;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#6;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#7;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#7;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#aryEq#8;class#EasyMock#0" expanded="false" />
-            <element signature="method#aryEq#8;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#isNull#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#isNull#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#isNull#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#isNull#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#notNull#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#notNull#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#notNull#1;class#EasyMock#0" expanded="false" />
-            <element signature="method#notNull#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#find#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#find#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#matches#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#matches#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#startsWith#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#startsWith#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#endsWith#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#endsWith#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#9;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#9;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#eq#10;class#EasyMock#0" expanded="false" />
-            <element signature="method#eq#10;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#same#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#same#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#cmpEq#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#cmpEq#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#cmp#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#cmp#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#newCapture#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#newCapture#1;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#capture#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#capture#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureBoolean#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureBoolean#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureInt#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureInt#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureLong#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureLong#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureFloat#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureFloat#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureDouble#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureDouble#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureByte#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureByte#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#captureChar#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#captureChar#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#replay#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#replay#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#reset#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#reset#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#resetToNice#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#resetToNice#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#resetToDefault#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#resetToDefault#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#resetToStrict#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#resetToStrict#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#verify#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#verify#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#checkOrder#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#reportMatcher#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#getCurrentArguments#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#getCurrentArguments#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#makeThreadSafe#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#checkIsUsedInOneThread#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#checkIsUsedInOneThread#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#getEasyMockProperty#0;class#EasyMock#0" expanded="false" />
-            <element signature="docComment;method#setEasyMockProperty#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#setEasyMockProperty#0;class#EasyMock#0" expanded="false" />
-            <element signature="method#EasyMock#0;class#EasyMock#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/test/ch1/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/jdk1.8 source/src/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="508" column="0" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jar/mockito-all-1.9.5.jar!/org/mockito/internal/creation/MockSettingsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jar/mockito-all-1.9.5.jar!/org/mockito/Mockito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1119" column="0" selection-start-line="1119" selection-start-column="0" selection-end-line="1119" selection-end-column="0" />
-          <folding>
-            <element signature="e#95040#95041#0" expanded="false" />
-            <element signature="e#95117#95118#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/soundsystem.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/SlayDragonQuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernateInAction/domain/message.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/soundsystem/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/soundsystem/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/soundsystem/CDPlayerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/soundsystem/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/soundsystem/SgtPeppers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jar/system-rules-1.16.1.jar!/org/junit/contrib/java/lang/system/SystemOutRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jar/system-rules-1.16.1.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/DisallowWriteToSystemOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/rules/TestRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -2166,18 +2032,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/statements/RunBeforeTestMethodCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/rules/RunRules.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/statements/SpringRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/internal/PrintStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/statements/RunBeforeTestClassCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
           <folding>
             <element signature="e#2137#2138#0" expanded="true" />
             <element signature="e#2181#2182#0" expanded="true" />
@@ -2189,159 +2111,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/jar/libs/spring-test-4.3.6.RELEASE-sources/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/jar/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/test/sia/knights/BraveKnightTest.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernateInAction/caveat/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="162">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/LogMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/internal/LogPrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/system-rules-1.16.1-sources.jar!/org/junit/contrib/java/lang/system/SystemOutRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="209" column="33" selection-start-line="209" selection-start-column="33" selection-end-line="209" selection-end-column="33" />
+          <folding>
+            <element signature="e#5808#5809#0" expanded="true" />
+            <element signature="e#5845#5846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/test/soundsystem/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/config/KnightConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/META-INF/spring/knight.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/META-INF/spring/minstrel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/BraveKnight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/DamselRescuingKnight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/minstrel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/META-INF/spring/knight.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/SlayDragonQuest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/Quest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/jar/libs/spring-context-4.3.6.RELEASE-sources/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1090" column="17" selection-start-line="1090" selection-start-column="17" selection-end-line="1090" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/sia/knights/KnightMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2411,7 +2254,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mockito-all-1.9.5</last-edited>
+          <last-edited>system-rules-1.16.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
