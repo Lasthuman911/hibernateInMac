@@ -4,8 +4,8 @@ import static org.mockito.Mockito.*;
 
 import org.junit.Test;
 
-import sia.knights.BraveKnight;
-import sia.knights.Quest;
+import inaction.ch1.knights.BraveKnight;
+import inaction.ch1.knights.Quest;
 
 /**
  * Name: admin

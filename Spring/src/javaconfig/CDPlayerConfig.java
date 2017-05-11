@@ -1,9 +1,9 @@
 package javaconfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import soundsystem.CDPlayer;
-import soundsystem.CompactDisc;
-import soundsystem.SgtPeppers;
+import inaction.ch2.soundsystem.CDPlayer;
+import inaction.ch2.soundsystem.CompactDisc;
+import inaction.ch2.soundsystem.SgtPeppers;
 
 @Configuration
 public class CDPlayerConfig {

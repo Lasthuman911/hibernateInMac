@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="taglib">
+    <CLASSES>
+      <root url="file://D:/jar/taglib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/jar/taglib" recursive="false" />
+  </library>
+</component>
