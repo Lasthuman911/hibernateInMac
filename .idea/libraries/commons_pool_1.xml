@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-pool-1">
+    <CLASSES>
+      <root url="file://D:/jar/commons-pool-1.6" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://D:/jar/commons-pool-1.6/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://D:/jar/commons-pool-1.6" />
+    </SOURCES>
+    <jarDirectory url="file://D:/jar/commons-pool-1.6" recursive="false" />
+    <jarDirectory url="file://D:/jar/commons-pool-1.6" recursive="false" type="SOURCES" />
+  </library>
+</component>

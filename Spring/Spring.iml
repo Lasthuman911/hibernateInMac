@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/src/META-INF/spring/knight.xml</file>
           <file>file://$MODULE_DIR$/src/META-INF/spring/minstrel.xml</file>
           <file>file://$MODULE_DIR$/src/META-INF/spring/soundsystem.xml</file>
+          <file>file://$MODULE_DIR$/src/persistence.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -18,7 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/resource" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit-4.12" level="project" />
     <orderEntry type="library" name="libs" level="project" />
@@ -28,5 +29,11 @@
     <orderEntry type="library" name="aspectj-1.8.10" level="project" />
     <orderEntry type="library" name="aspectjweaver" level="project" />
     <orderEntry type="library" name="system-rules-1.16.1" level="project" />
+    <orderEntry type="library" name="commons-lang3-3" level="project" />
+    <orderEntry type="library" name="commons-dbcp2-2.1" level="project" />
+    <orderEntry type="library" name="commons-dbcp-1" level="project" />
+    <orderEntry type="library" name="ojdbc6" level="project" />
+    <orderEntry type="library" name="commons-pool2-2.4" level="project" />
+    <orderEntry type="library" name="commons-pool-1" level="project" />
   </component>
 </module>
