@@ -35,5 +35,6 @@
     <orderEntry type="library" name="ojdbc6" level="project" />
     <orderEntry type="library" name="commons-pool2-2.4" level="project" />
     <orderEntry type="library" name="commons-pool-1" level="project" />
+    <orderEntry type="library" name="HibernateLib" level="project" />
   </component>
 </module>
