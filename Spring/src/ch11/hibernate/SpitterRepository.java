@@ -15,7 +15,7 @@ public interface SpitterRepository {
 
   Spitter save(Spitter spitter);
 
-  Spitter findOne(long id);
+  Spitter findOne(String id);
 
   Spitter findByUsername(String username);
 
