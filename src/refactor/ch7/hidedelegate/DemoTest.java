@@ -11,6 +11,11 @@ public class DemoTest {
         department.setManager("wzm");
 
         Person john = new Person(department);
-       System.out.println(john.getDepartment().getManager());
+
+        //原始
+        System.out.println(john.getDepartment().getManager());
+
+        //改进后，对客户隐藏了实现的细节，对客户隐藏了Department，减少耦合
+        System.out.println(john.getManager());
     }
 }

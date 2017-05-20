@@ -6,17 +6,25 @@ package refactor.ch7.hidedelegate;
  * Time: 17:40
  */
 public class Person {
-    public Person(refactor.ch7.hidedelegate.Department department) {
-        Department = department;
+    public Person(Department arg) {
+        department = arg;
     }
 
-    Department Department;
+    Department department;
 
-    public refactor.ch7.hidedelegate.Department getDepartment() {
-        return Department;
+    public Department getDepartment() {
+        return department;
     }
 
-    public void setDepartment(refactor.ch7.hidedelegate.Department department) {
-        Department = department;
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    /**
+     * 改进后，添加委托函数
+     * @return
+     */
+    public String getManager(){
+        return  department.getManager();
     }
 }
